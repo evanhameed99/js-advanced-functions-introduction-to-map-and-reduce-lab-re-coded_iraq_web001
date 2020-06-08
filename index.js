@@ -34,3 +34,4 @@ function mapToSquare(sourceArray){
   return newArr;
 
 }
+function ()
