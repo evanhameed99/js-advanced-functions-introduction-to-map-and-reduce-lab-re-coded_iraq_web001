@@ -7,4 +7,3 @@ function mapToNegativize(sourceArray) {
 
   return newArr;
 }
-mapToNegativize([1, 2, 3]);
