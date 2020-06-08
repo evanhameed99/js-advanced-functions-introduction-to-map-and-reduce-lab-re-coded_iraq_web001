@@ -50,10 +50,9 @@ function reduceToAllTrue(sourceArray){
   if(!elem){
 
     state= false;
-    return 
+    return
   }
 
   })
   return state
 }
-
