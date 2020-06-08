@@ -35,7 +35,7 @@ function mapToSquare(sourceArray){
 
 }
 function reduceToTotal(sourceArray,startingPoint=0){
-  
+
   sourceArray.forEach(element => {
     return startingPoint+=element ;
 
