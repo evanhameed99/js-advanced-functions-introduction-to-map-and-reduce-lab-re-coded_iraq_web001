@@ -56,3 +56,16 @@ function reduceToAllTrue(sourceArray){
   })
   return state
 }
+function reduceToAnyTrue(sourceArray){
+
+  let state = false;
+  sourceArray.forEach(elem=>{
+  if(elem){
+
+    state= true;
+    return 
+  }
+
+  })
+  return state
+}
