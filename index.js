@@ -14,5 +14,5 @@ function mapToNoChange(sourceArray){
   });
 
   return newArr;
-  
+
 }
