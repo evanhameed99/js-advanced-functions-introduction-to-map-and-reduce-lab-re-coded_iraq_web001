@@ -43,3 +43,5 @@ function reduceToTotal(sourceArray,startingPoint=0){
 return startingPoint
 
 }
+
+
