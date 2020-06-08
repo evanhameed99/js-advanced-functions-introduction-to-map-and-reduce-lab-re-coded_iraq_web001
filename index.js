@@ -7,3 +7,12 @@ function mapToNegativize(sourceArray) {
 
   return newArr;
 }
+function mapToNoChange(sourceArray){
+  let newArr = [];
+  sourceArray.forEach(elem => {
+    newArr.push(elem );
+  });
+
+  return newArr;
+  
+}
