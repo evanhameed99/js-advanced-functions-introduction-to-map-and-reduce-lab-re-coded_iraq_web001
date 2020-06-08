@@ -25,3 +25,12 @@ function mapToDouble(sourceArray){
   return newArr;
 
 }
+function mapToSquare(sourceArray){
+  let newArr = [];
+  sourceArray.forEach(elem => {
+    newArr.push(elem **2);
+  });
+
+  return newArr;
+
+}
