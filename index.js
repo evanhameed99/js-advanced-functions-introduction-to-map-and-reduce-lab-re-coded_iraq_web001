@@ -16,3 +16,12 @@ function mapToNoChange(sourceArray){
   return newArr;
 
 }
+function mapToDouble(sourceArray){
+  let newArr = [];
+  sourceArray.forEach(elem => {
+    newArr.push(elem *2);
+  });
+
+  return newArr;
+
+}
