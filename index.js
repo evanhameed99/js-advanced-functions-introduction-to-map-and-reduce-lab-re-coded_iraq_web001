@@ -34,4 +34,13 @@ function mapToSquare(sourceArray){
   return newArr;
 
 }
-function ()
+function reduceToTotal(sourceArray,startingPoint){
+
+  sourceArray.forEach(element => {
+    return startingPoint+=element ; 
+   
+  });
+return startingPoint
+  
+}
+reduceTotal([1,2,3,4],0);
