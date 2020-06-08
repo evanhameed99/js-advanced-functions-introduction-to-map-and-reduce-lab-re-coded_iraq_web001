@@ -1,7 +1,10 @@
 // Your code here
-mapToNegativize(sourceArray){
+function mapToNegativize(sourceArray) {
+  let newArr = [];
+  sourceArray.forEach(elem => {
+    newArr.push(elem * -1);
+  });
 
-    sourceArray.forEach(elem=>{
-      
-    })
+  return newArr;
 }
+mapToNegativize([1, 2, 3]);
