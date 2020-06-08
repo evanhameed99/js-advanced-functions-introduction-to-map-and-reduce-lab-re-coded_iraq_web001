@@ -45,5 +45,15 @@ return startingPoint
 }
 function reduceToAllTrue(sourceArray){
 
-  sourceArray.every(elem=> elem==true);
+  let state = true;
+  sourceArray.forEach(elem=>{
+  if(!elem){
+
+    state= false;
+    return 
+  }
+
+  })
+  return state
 }
+
