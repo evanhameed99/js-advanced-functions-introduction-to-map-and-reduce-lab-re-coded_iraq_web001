@@ -43,4 +43,4 @@ function reduceToTotal(sourceArray,startingPoint){
 return startingPoint
 
 }
-reduceTotal([1,2,3,4],0);
+reduceToTotal([1,2,3,4],0);
