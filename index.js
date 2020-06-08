@@ -43,7 +43,14 @@ function reduceToTotal(sourceArray,startingPoint=0){
 return startingPoint
 
 }
-function reduceToAllTrue(sourceArray){
+function reduceToAllTrue(sourceArray,state=true){
 
-  
+  sourceArray.forEach(elem=>{
+    if(elem){
+      return state ;
+    }
+    else{
+      return !state;
+    }
+  })
 }
