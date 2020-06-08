@@ -63,7 +63,7 @@ function reduceToAnyTrue(sourceArray){
   if(elem){
 
     state= true;
-    return 
+    return
   }
 
   })
